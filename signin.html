@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="./zititubiao/font/font_18zhnr80gw2/iconfont.css">
+</head>
+    
+<body>
+    <div class="main">
+        
+        <div class="signbox">
+            <div>
+                <input type="radio" id="vflogo" name="tab1" checked>
+                <input type="radio" id="pwlogo" name="tab1">
+                <label for="vflogo" id="vflb" >验证码登录</label>
+                <label for="pwlogo" id="pwlb" >密码登录</label>
+            </div>
+                
+            
+
+            <div class="stage" id="stage">
+                <div class="phonesign" id="phonesign">
+                    <input type="text" name="" id="tel" placeholder="请输入手机号">
+                    <input type="password" name="" id="password" placeholder="请输入验证码">
+                    <span id="vf">获取短信验证码</span>
+                    <button id="vfbt">登录 / 注册</button>
+                </div>
+                <div class="accountsign" id="accountsign">
+                    <input type="text" name="" id="account" placeholder="请输入账号">
+                    <input type="password" name="" id="password" placeholder="请输入密码">
+                    <button id="acbt">登录 / 注册</button>
+                </div>
+            </div>
+
+            <div class="path" id="path">
+                
+             <svg class="icon" aria-hidden="true" >
+                <use xlink:href="#icon-QQ"></use>
+              </svg>
+             <svg class="icon" aria-hidden="true" >
+                <use xlink:href="#icon-weixin"></use>
+              </svg>
+             <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-shejiaotubiao-42"></use>
+              </svg>
+            </div>
+        </div>  
+        <div class="vcodebox" id="vcodebox">
+            <div class="vcode"></div>
+            <input type="text" id="inp">
+            <button class="vcbt">验证</button>
+            <label id="vclabel"></label>
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="signin.js"></script>
+    <script src="./zititubiao/font/font_18zhnr80gw2/iconfont.js"></script>
+</body>
+</html>
