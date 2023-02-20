@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "145704",
+      "name": "分类or广场or其他_填充",
+      "font_class": "fenleiorguangchangorqitatianchong",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "724391",
+      "name": "笔记本",
+      "font_class": "bijiben-copy",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "1115070",
+      "name": "商店",
+      "font_class": "shangdian",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "12795401",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "14656461",
+      "name": "品牌设计",
+      "font_class": "pinpaisheji",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "18371058",
+      "name": "首页1",
+      "font_class": "shouye1",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "29488068",
+      "name": "客户端用户管理",
+      "font_class": "kehuduanyonghuguanli",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    }
+  ]
+}
